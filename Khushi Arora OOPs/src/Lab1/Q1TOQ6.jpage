@@ -1,0 +1,30 @@
+//Q1 and Q2 declaration & initialization
+int n=5;
+
+//Q3 to Q4, squares of 5 natural no.int a[]=new int[5],z=1,sum=0,avg,i,j;
+for(i=0; i<5; i++)
+{
+	a[i]=z*z;
+	System.out.print(" "+a[i]);
+	z++;
+}
+
+//Q5, avg value of a
+
+for(i=0; i<5; i++)
+{
+sum+=a[i];	
+}
+
+avg=(sum/5);
+
+System.out.println("\n average = " +avg);
+
+//Q6, reversing array
+
+int b[]= new int[5];
+for(i=4,j=0; i>=0 && j<=5;i--,j++)
+{
+	b[j]=a[i];
+	System.out.print(" "+ b[j]);
+}
